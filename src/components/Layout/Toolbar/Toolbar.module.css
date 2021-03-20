@@ -2,6 +2,7 @@
     background-color: lightskyblue;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 2rem;
     position: sticky;
     top: 0;
