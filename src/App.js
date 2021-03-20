@@ -1,4 +1,5 @@
-import Toolbar from "./components/Toolbar/Toolbar";
+import Layout from "./components/Layout/Layout";
+
 
 
 
@@ -7,7 +8,8 @@ function App() {
 
   return (
     <div className="App">
-   <Toolbar />
+      <Layout> example project internet shop by Choroshkin</Layout>
+   
     </div>
   );
 }
