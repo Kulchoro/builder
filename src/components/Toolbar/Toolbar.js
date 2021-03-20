@@ -4,8 +4,9 @@ import Logo from "../Logo/Logo";
 
 const Toolbar = () => {
     return ( <div className={classes.Toolbar}>
-        <Navigation />
-        <Logo />
+          <Logo />
+          <Navigation />
+      
     </div> );
 }
  
