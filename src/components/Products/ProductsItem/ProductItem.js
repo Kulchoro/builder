@@ -5,11 +5,11 @@ const ProductItem = ({products}) => {
         return <div className={classes.ProductItem}> 
         <div>{product.productName}</div>
         <div>{product.description}</div>
-        <div>{product.price}</div>
+        <div>{product.price} cent</div>
         </div>
 
     })
-    return ( <div>
+    return ( <div className={classes.ProductItems}>
         {productsItem}
     </div> );
 }
